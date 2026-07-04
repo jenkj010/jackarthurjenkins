@@ -82,3 +82,5 @@ Reuse the existing CSS classes (`.pixel-panel`, `.section-title`,
 extra styling. If an app needs interactivity, make its main component a
 client component (`"use client"`) like `DraftApp.tsx`, and keep any
 pure logic in `lib/` so it stays testable.
+
+Deployment trigger
