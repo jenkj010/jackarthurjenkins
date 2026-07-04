@@ -1,8 +1,4 @@
-import { PHASE_DEVELOPMENT_SERVER } from "next/constants.js";
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
 
-/** @type {(phase: string) => import('next').NextConfig} */
-export default function nextConfig(phase) {
-  return {
-    distDir: phase === PHASE_DEVELOPMENT_SERVER ? ".next-dev" : ".next-build",
-  };
-}
+export default nextConfig;
